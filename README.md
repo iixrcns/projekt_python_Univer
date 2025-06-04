@@ -16,5 +16,14 @@ NumPy.
 python translate_tool.py "Hello" fr
 ```
 
+### Interactive Mode
+
+Run the tool with `-i` to translate multiple phrases sequentially. Leave the
+text input blank to exit:
+
+```bash
+python translate_tool.py -i
+```
+
 Make sure `googletrans` and `numpy` are installed in your environment. The tool
 prints the translated text or an error message when something goes wrong.

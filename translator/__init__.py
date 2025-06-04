@@ -1,4 +1,4 @@
-"""Translation utilities package."""
+"""Pakiet narzędzi do tłumaczeń."""
 
 from .core import TranslatorClient, TranslationError, TranslationRecord
 
